@@ -1,7 +1,7 @@
 import { UserType } from './HW2';
 
 type CurrentUserPropsType = {
-  user: UserType
+  user: any // пропиши типизацию
 };
 
 export const CurrentUser = (props: CurrentUserPropsType) => {
